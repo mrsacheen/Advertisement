@@ -1,0 +1,103 @@
+.trainer_area {
+  padding-bottom: 100px; }
+  @media (max-width: 991px) {
+    .trainer_area {
+      padding-bottom: 40px; } }
+
+.single-trainer {
+  margin-bottom: 30px; }
+  .single-trainer .thumb {
+    position: relative; }
+  .single-trainer .meta-text {
+    background: #f9f9ff;
+    padding: 20px 25px;
+    box-shadow: 0px 0px 30px rgba(153, 153, 153, 0.13);
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    background: #ffffff; }
+    @media (max-width: 991px) {
+      .single-trainer .meta-text {
+        padding: 20px 20px; } }
+    .single-trainer .meta-text h4 {
+      font-size: 20px;
+      margin-bottom: 0px; }
+    .single-trainer .meta-text .designation {
+      font-size: 14px;
+      margin-bottom: 30px; }
+    .single-trainer .meta-text a {
+      font-size: 14px;
+      margin: 0 10px;
+      color: #cccccc;
+      -webkit-transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s; }
+      .single-trainer .meta-text a:hover {
+        color: #fdc632; }
+  .single-trainer:hover .meta-text {
+    box-shadow: 0px 10px 30px rgba(0, 35, 71, 0.15);
+   }
+  .imageStyle{
+    height:200px;
+    margin-top: 0px;
+    width: 100%;
+
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto
+
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto
+}
+@media (min-width:576px) {
+  .container {
+      max-width: 540px
+  }
+}
+
+@media (min-width:768px) {
+  .container {
+      max-width: 720px
+  }
+}
+
+@media (min-width:992px) {
+  .container {
+      max-width: 960px
+  }
+}
+
+@media (min-width:1200px) {
+  .container {
+      max-width: 1140px
+  }
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px
+}
+.col-lg-3,
+.col-md-6,
+.col-sm-12{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px
+}
+.bodyStyle{
+  margin-top: 20px;
+}

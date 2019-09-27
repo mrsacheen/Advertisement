@@ -1,0 +1,22 @@
+.single_feature
+{
+    padding:40px 20px
+}
+
+.single_feature .icon span
+{
+    font-size:30px
+}
+.single_feature h4
+{
+    font-size:20px;
+    font-weight:500
+}
+.single_feature p
+{
+    margin-bottom:0
+}
+.single_feature:hover
+{
+    box-shadow:0 10px 30px rgba(0,35,71,.1)
+}
